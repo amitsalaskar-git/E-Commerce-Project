@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase - Home</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+        }
+
+        /* Top Bar */
+        .topbar {
+            background: #ff4d4d;
+            color: white;
+            text-align: center;
+            padding: 8px 0;
+            font-size: 14px;
+        }
+
+        /* Header */
+        header {
+            background: #ffffff;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            color: #333;
+        }
+
+        /* Search bar */
+        .search-box input {
+            padding: 10px;
+            width: 250px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        /* Navigation */
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        nav a:hover {
+            color: #ff4d4d;
+        }
+
+        /* Featured Banner */
+        .featured {
+            background: url("https://via.placeholder.com/1500x450") center/cover no-repeat;
+            height: 380px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            text-shadow: 0 0 15px black;
+            flex-direction: column;
+        }
+
+        .featured h2 {
+            font-size: 45px;
+            margin: 0;
+        }
+
+        /* Products */
+        .products {
+            padding: 40px;
+        }
+
+        .products h2 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .grid {
+            display: grid;
+            gap: 25px;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        }
+
+        .item {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .item h3 {
+            margin: 10px 0;
+        }
+
+        .item p {
+            margin: 0;
+            font-weight: bold;
+            color: #444;
+        }
+
+        .btn {
+            background: #ff4d4d;
+            color: #fff;
+            padding: 10px 15px;
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        .btn:hover {
+            background: #e64545;
+        }
+
+        /* Footer */
+        footer {
+            background: #222;
+            color: #ddd;
+            padding: 20px;
+            margin-top: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Topbar -->
+    <div class="topbar">
+        Free Shipping on Orders Over ₹499 • Cash on Delivery Available!
+    </div>
+
+    <!-- Header -->
+    <header>
+        <h1>ShopEase</h1>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search for products...">
+        </div>
+
+        <nav>
+            #
+            #
+            #
+            #
+        </nav>
+    </header>
+
+    <!-- Featured Banner -->
+    <section class="featured">
+        <h2>Today's Mega Deals</h2>
+        <p>Up to 70% OFF on electronics and accessories!</p>
+    </section>
+
+    <!-- Product Section -->
+    <section class="products">
+        <h2>Best Sellers</h2>
+
+        <div class="grid">
+
+            <div class="item">
+                https://via.placeholder.com/300
+                <h3>Smart LED TV</h3>
+                <p>₹15,999</p>
+                # class="btn">Add to Cart</a>
+            </div>
+
+            <div class="item">
+                https://via.placeholder.com/300
+                <h3>Men's Running Shoes</h3>
+                <p>₹1,199</p>
+                #
+            </div>
+
+            <div class="item">
+                https://via.placeholder.com/300
+                <h3>Wireless Keyboard</h3>
+                <p>₹899</p>
+                #
+            </div>
+
+            <div class="item">
+                https://via.placeholder.com/300
+                <h3>Gaming Headset</h3>
+                <p>₹1,499</p>
+                #
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        © 2026 ShopEase — All Rights Reserved.
+    </footer>
+
+</body>
+</html>
